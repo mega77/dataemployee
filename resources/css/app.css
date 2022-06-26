@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwindcss/typography@latest;
+@tailwindcss/line-clamp@latest;
+@tailwindcss/aspect-ratio@latest;
+@tailwindcss-children@latest;
+
+body{
+    content: '';
+    background-image: url(/assets/Background.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 70vmax;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
